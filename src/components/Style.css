@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Poppins:wght@200;300;400;600;700&family=Teko&family=Ysabeau+SC:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  
+  body {
+    background: #ffffff url('img/bg.jpg') repeat center center/cover;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    /* overflow: hidden; */
+  }
+
+  .heading h2{
+    text-shadow: 1px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 100px;
+  align-items: end;
+  text-align: end;
+  font-family: Monoton;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: 7px 7px #001a5b2a;
+  margin-right: 2%;
+  line-height: normal;
+  background: #1E0094;
+background: linear-gradient(to bottom, #1E0094 0%, #00111D 65%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  }
+
+  .heading h5{
+    
+    text-shadow: 370px 2px #0e04040e;
+font-size: 70px;
+align-items: end;
+text-align:left;
+/* margin-top: 2%; */
+font-family: Monoton;
+font-style: normal;
+font-weight: 400;
+margin-right: 15%;
+background: #1E0094;
+background: linear-gradient(to bottom, #1E0094 0%, #00111D 65%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
+  .play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  *, 
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ::selection {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  html,
+  body {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  
+  .design p {
+    font-size: 8rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    align-items: start;
+    text-align: left;
+    color: #18003e;
+    text-shadow: 8px 10px #18003e;
+    -webkit-text-stroke-width: 1.8px;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    outline: 0;
+  }
+  
+  .design p:before {
+    content: attr(data-text);
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 0.990em;
+    /* background: linear-gradient(0deg, #18003e 0, transparent 81%); */
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  
+.signup-image figure{
+  display: flex;
+  align-items: end;
+
+  height: 300px;
+  width: 220px;
+  opacity: 0.8;
+ 
+}
+
+.job figure{
+  display: flex;
+  float: right;
+  height: 200px;
+  width: 220px;
+  opacity: 0.4;
+}
+
+.search figure{
+  display: flex;
+  margin-left: auto;
+  margin-right: 35%;
+  margin-top: -50%;
+
+  height: 200px;
+  width: 220px;
+  opacity: 0.4;
+}
+
+.arrow figure{
+  display: flex;
+  float: right;
+  height: 700px;
+  margin-right: -32%;
+  margin-top: 2%;
+  width: 720px;
+  opacity: 0.9;
+}
+
+.btn-primary {
+  border-radius: 200px;
+  background-color: #00111D;
+  width: 15%;
+  font-family: Teko;
+}
+
+.btn-primary:hover {
+  border-radius: 200px;
+  background-color: #97c2ff;
+  color: #00111D;
+  border: 2px dotted #00111D;
+}
+
+
+  
+  h1 {
+    margin: 20px 0 0;
+    font-family: 'PT Mono', monospace;
+  }
+
+  .heading img {
+    display: block;
+    margin: auto;
+    border: #f3f3f3;
+   width: 35%;
+    /* padding-top: 1%; */
+  }
+
+  /* job search */
+  
+  .search{
+    position: relative;
+    margin-top: 4%;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+
+
+
+    .search button{
+      color: #ffffff;
+      font-weight: 500;
+     position: absolute;
+     border-radius: 50px;
+     top: 5px;
+     right: 5px;
+     height: 50px;
+     width: 110px;
+     background: rgb(212, 102, 107);
+
+    }
+
+    .search .filter{
+      background: rgb(212, 102, 107);
+      color: #f3f3f3;
+    }
+    .search .row1{
+      
+     position: absolute;
+     border-radius: 50px;
+     top: 10px;
+      left:25px;
+     height: 50px;
+     width: 700px;
+
+    }
+
+    .card{
+      background-color: #e6efffd5;
+      box-shadow: 10px 10px rgba(6, 0, 53, 0.57);
+    }
+  
+  
